@@ -6,11 +6,6 @@
     --footer: #171717;
 }
 
-@font-face {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    src: url('../fonts/Montserrat-Black.ttf')
-}
-
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
 }
