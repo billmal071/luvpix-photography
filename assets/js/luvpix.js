@@ -24,15 +24,15 @@ function open() {
 
     let img1 = document.getElementById('logo').src;
     if (img1.indexOf('Logo.svg') != -1) {
-        document.getElementById('logo').src = './img/Logo-dark.svg';
+        document.getElementById('logo').src = './assets/img/Logo-dark.svg';
     } else {
-        document.getElementById('logo').src = './img/Logo.svg';
+        document.getElementById('logo').src = './assets/img/Logo.svg';
     }
 
     let img2 = document.getElementById('icon').src;
     if (img2.indexOf('hamburger.svg') != -1) {
-        document.getElementById('icon').src = './img/x.svg';
+        document.getElementById('icon').src = './assets/img/x.svg';
     } else {
-        document.getElementById('icon').src = './img/hamburger.svg';
+        document.getElementById('icon').src = './assets/img/hamburger.svg';
     }
 }
