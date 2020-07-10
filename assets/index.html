@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/luvpix.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>LuvPix Photography</title>
+</head>
+
+<body>
+    <nav class="fixed-top pt-4" id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn mt-n4">
+            <img src="./img/hamburger.svg" alt="" id='icon'>
+        </label>
+        <label class="logo header-margin-l">
+            <a href="#"><img src="./img/Logo.svg" alt="" id="logo"></a>
+        </label>
+        <ul class="header-margin-r pt-2">
+            <li class="text-uppercase text-white link-active mr-4"><a href="">home</a></li>
+            <li class="text-uppercase text-white mr-4"><a href="">about</a></li>
+            <li class="text-uppercase text-white mr-4"><a href="">services</a></li>
+            <li class="text-uppercase text-white mr-4"><a href="">gallery</a></li>
+            <li class="text-uppercase text-white mr-4"><a href="">blog</a></li>
+            <li class="text-uppercase text-white mr-2 pr-2" id="border-r"><a href="">contact</a></li>
+            <li class="text-uppercase text-white"><a href=""><img src="./img/facebook.svg" alt=""></a></li>
+            <li class="text-uppercase text-white"><a href=""><img src="./img/twitter.svg" alt=""></a></li>
+        </ul>
+    </nav>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!--<ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>-->
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/display.png" alt="Los Angeles">
+                <div class="carousel-caption">
+                    <h3 class="header-text text-uppercase">unlimited creativity</h3>
+                    <p class="text-white text-uppercase">discover more</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L12 18L17 13" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M7 6L12 11L17 6" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/display.png" alt="Chicago">
+                <div class="carousel-caption">
+                    <h3 class="header-text text-uppercase">unlimited creativity</h3>
+                    <p class="text-white text-uppercase header-p-text">discover more</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L12 18L17 13" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M7 6L12 11L17 6" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/display.png" alt="New York">
+                <div class="carousel-caption">
+                    <h3 class="header-text text-uppercase">unlimited creativity</h3>
+                    <p class="text-white text-uppercase">discover more</p>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L12 18L17 13" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M7 6L12 11L17 6" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <svg width="24" height="109" viewBox="0 0 24 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11.5" cy="38.5" r="1.5" fill="white" />
+                <circle cx="11.5" cy="54.5" r="1.5" fill="#A8A8A8" />
+                <circle cx="11.5" cy="70.5" r="1.5" fill="#A8A8A8" />
+                <path d="M18 15L12 9L6 15" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M18 94L12 100L6 94" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+    </div>
+
+    <main class="">
+        <section class="bg-light" id="padding-bg">
+            <h3 class="heading-text text-uppercase">about me</h3>
+            <p class="text-dark">Quisque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Etiam et odio sedan arami accumsan gravida. Mauris in rhoncus mauris. Duis a massa ac ex
+                malesuada aliquet. Mauris odio in devam company the design dolor leo facilisis ligula eget malesuada
+                metus ut nunc. Integer posuere vel sem et tempus.</p>
+            <p class="pt-2">Aliquam erat volutpat. Curabitur tortor mauris,
+                iaculis vel pulvinar at, convallis id mauris. Praesent feugiat dui sit amet ullamcorper blandit ligula
+                ligula volutpat ante sed rhoncus nunc ante non ex. Donec porta elementum estid suscipit nisl bibendum
+                vitae. Sedet nisi lacinia the adam drana diam luctus egestas.</p>
+        </section>
+
+        <section class="bg-grey" id="padding-services">
+            <h3 class="heading-text text-uppercase pb-3">services</h3>
+            <div id="demon" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demon" data-slide-to="0" class="bg-dark active"></li>
+                    <li data-target="#demon" data-slide-to="1" class="bg-dark"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="d-flex flex-row justify-content-center carousel-item active">
+                        <div class="px-3 img-pos small-screen-hide big-screen-show">
+                            <img src="./img/services-1.png" alt="" class=" img-fluid">
+                            <span class="text-centered text-center">
+                                <span class="text-orange text-uppercase">portrait</span>
+                                <span class="text-white text-uppercase">photography</span>
+                            </span>
+                        </div>
+
+                        <div class="px-md-3 img-pos">
+                            <img src="./img/services-2.png" alt="" class="img-fluid">
+                            <span class="text-centered text-center">
+                                <span class="text-orange text-uppercase">wedding</span>
+                                <span class="text-white text-uppercase">photography</span>
+                            </span>
+                        </div>
+
+                        <div class="px-3 img-pos small-screen-hide big-screen-show">
+                            <img src="./img/services-3.png" alt="" class="img-fluid">
+                            <span class="text-centered text-center">
+                                <span class="text-orange text-uppercase">travel</span>
+                                <span class="text-white text-uppercase">photography</span>
+                            </span>
+                        </div>
+
+                        <div class="px-3 img-pos small-screen-hide big-screen-show">
+                            <img src="./img/services-4.png" alt="" class="img-fluid">
+                            <span class="text-centered text-center">
+                                <span class="text-orange text-uppercase">event</span>
+                                <span class="text-white text-uppercase">photography</span>
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery -->
+        <section class="container-fluid">
+            <div class="gallery">
+                <h4 class="heading-text text-uppercase mb-4">gallery</h4>
+                <div class="d-flex flex-row">
+                    <div class="mr-6 small-screen-hide big-screen-show">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" id="gallery-active" href="#all-photos">All Photos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#documentary">Documentary</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">Travel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">lifestyle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">event</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">wedding</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center" id="all-photos">
+                        <div class="d-flex flex-row">
+                            <div class="px-1 py-1">
+                                <img src="./img/gallery-1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="px-md-1 py-1">
+                                <img src="./img/gallery-2.png" alt=""
+                                    class="img-fluid small-screen-hide big-screen-show">
+                            </div>
+                            <div class="px-1 py-1">
+                                <img src="./img/gallery-3.png" alt=""
+                                    class="img-fluid small-screen-hide big-screen-show">
+                            </div>
+                            <div class="px-md-1 py-1">
+                                <img src="./img/gallery-4.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="px-md-1 py-1">
+                                <img src="./img/gallery-5.png" alt=""
+                                    class="img-fluid small-screen-hide big-screen-show">
+                            </div>
+                            <div class="px-1 py-1">
+                                <img src="./img/gallery-6.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="px-md-1 py-1">
+                                <img src="./img/gallery-7.png" alt=""
+                                    class="img-fluid small-screen-hide big-screen-show">
+                            </div>
+                            <div class="px-1 py-1">
+                                <img src="./img/gallery-8.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="px-1 py-1">
+                                <img src="./img/gallery-9.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="px-1 py-1">
+                                <img src="./img/gallery-10.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="px-1 py-1 small-screen-hide big-screen-show">
+                                <img src="./img/gallery-11.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog -->
+        <section class="">
+            <div class="bg-grey ">
+                <h4 class="heading-text text-uppercase mb-4">blog</h4>
+                <div class="grid-box-1">
+                    <div class="shadow px-5 pb-5 pb-md-1">
+                        <div class="pt-3">
+                            <span class="d-inline head-text pt-3">08 july 2020</span>
+                            <span class="d-inline head-text pt-3">30 comments</span>
+                        </div>
+                        <p class="description py-md-3">How to shoot at night</p>
+                        <p class="text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis
+                            consequat tincidunt fusce
+                            mi arcu et. Hendrerit arcu libero ipsum fermentum iaculis odio aliquam mollis bibendum.
+                            Donec sit lorem ultricies elit turpis. Bibendum felis adipiscing tortor, adipiscing.
+                            Suscipit sapien at.</p>
+                        <a href="#" class="butn">Read More</a>
+                    </div>
+
+                    <div class="card shadow">
+                        <img class="card-img-top" src="./img/card-img.png" alt="Card image">
+                        <div class="card-img-overlay px-5">
+                            <div class="pt-3">
+                                <span class="d-inline head-text pt-3">08 july 2020</span>
+                                <span class="d-inline head-text pt-3">30 comments</span>
+                            </div>
+                            <p class="description py-md-3 text-white">Creating great images</p>
+                            <p class="text-content card-text text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Cras quis
+                                consequat tincidunt fusce
+                                mi arcu et. Hendrerit arcu libero ipsum fermentum iaculis odio aliquam mollis bibendum.
+                                Donec sit lorem ultricies elit turpis. Bibendum felis adipiscing tortor, adipiscing.
+                                Suscipit sapien at.</p>
+                            <a href="#" class="butn">Read More</a>
+
+                        </div>
+                    </div>
+
+                    <div class="shadow px-5 pb-5 pb-md-1">
+                        <div class="pt-3">
+                            <span class="d-inline head-text pt-3">08 july 2020</span>
+                            <span class="d-inline head-text pt-3">30 comments</span>
+                        </div>
+                        <p class="description py-md-3">Snapping babies</p>
+                        <p class="text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis
+                            consequat tincidunt fusce
+                            mi arcu et. Hendrerit arcu libero ipsum fermentum iaculis odio aliquam mollis bibendum.
+                            Donec sit lorem ultricies elit turpis. Bibendum felis adipiscing tortor, adipiscing.
+                            Suscipit sapien at.</p>
+                        <a href="#" class="butn">Read More</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="py-6 px-md-5 container-fluid">
+            <div class="">
+                <div class="row px-md-5">
+                    <div class="col-md-6 pr-5 small-screen-hide big-screen-show" id="contact">
+                        <h4 class="heading-text text-uppercase">contact</h4>
+                        <p>I'd love to hear from you! Please fill out the form below or send a note directly with as
+                            much
+                            details as possible to <b>hello@luvpix.com</b> </p>
+                        <p><b>PHONE</b> : +1 650-444-0000</p>
+                        <p><b>ADDRESS</b> : 178 Fifth Avenue, 11th Floor, New York, NY, USA</p>
+                        <p><b>EMAIL</b> : info@luvpix.com</p>
+                    </div>
+                    <div class="col-md-6 pr-md-5">
+                        <h4 class="heading-text text-uppercase small-screen-show big-screen-hide">contact</h4>
+                        <p>interested in working with us?</p>
+                        <form action="">
+                            <div class="">
+                                <input type="text" class="mr-md-3 pb-2" placeholder="Name">
+                                <input type="text" class="ml-lg-3 pb-2 mt-5" placeholder="Email Address">
+                            </div>
+                            <div class="mt-5">
+                                <input type="text" class="w-100 pb-6" placeholder="Message">
+                            </div>
+                        </form>
+                        <button type="submit" class="btn text-uppercase mt-4 text-white" id="btn">send message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer pb-3 grid-box-2 big-screen-show small-screen-hide">
+                <div class="pr-5 mr-5">
+                    <svg width="123" height="48" viewBox="0 0 123 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M53.66 22H56.9V33.36H63.92V36H53.66V22ZM76.2722 25.24V36H73.3122V34.72C72.8989 35.1867 72.4055 35.5467 71.8322 35.8C71.2589 36.04 70.6389 36.16 69.9722 36.16C68.5589 36.16 67.4389 35.7533 66.6122 34.94C65.7855 34.1267 65.3722 32.92 65.3722 31.32V25.24H68.4922V30.86C68.4922 32.5933 69.2189 33.46 70.6722 33.46C71.4189 33.46 72.0189 33.22 72.4722 32.74C72.9255 32.2467 73.1522 31.52 73.1522 30.56V25.24H76.2722ZM89.8427 25.24L85.3027 36H82.0827L77.5627 25.24H80.7827L83.7627 32.56L86.8427 25.24H89.8427ZM97.3958 22C98.6358 22 99.7091 22.2067 100.616 22.62C101.536 23.0333 102.242 23.62 102.736 24.38C103.229 25.14 103.476 26.04 103.476 27.08C103.476 28.1067 103.229 29.0067 102.736 29.78C102.242 30.54 101.536 31.1267 100.616 31.54C99.7091 31.94 98.6358 32.14 97.3958 32.14H94.5758V36H91.3358V22H97.3958ZM97.2158 29.5C98.1891 29.5 98.9291 29.2933 99.4358 28.88C99.9424 28.4533 100.196 27.8533 100.196 27.08C100.196 26.2933 99.9424 25.6933 99.4358 25.28C98.9291 24.8533 98.1891 24.64 97.2158 24.64H94.5758V29.5H97.2158ZM105.569 25.24H108.689V36H105.569V25.24ZM107.129 23.74C106.556 23.74 106.089 23.5733 105.729 23.24C105.369 22.9067 105.189 22.4933 105.189 22C105.189 21.5067 105.369 21.0933 105.729 20.76C106.089 20.4267 106.556 20.26 107.129 20.26C107.702 20.26 108.169 20.42 108.529 20.74C108.889 21.06 109.069 21.46 109.069 21.94C109.069 22.46 108.889 22.8933 108.529 23.24C108.169 23.5733 107.702 23.74 107.129 23.74ZM118.425 36L116.065 32.7L113.625 36H110.225L114.365 30.58L110.365 25.24H113.865L116.145 28.38L118.485 25.24H121.805L117.805 30.5L121.965 36H118.425Z"
+                            fill="grey" />
+                        <path
+                            d="M23.3364 0L38.1341 14.7978H47.83V48H15.0454V38.0423L0.169758 23.2015L23.3364 0ZM20.2659 38.1855H42.6095V20.0182H20.2659V38.1855ZM30.6486 14.7978L23.3364 7.48554L16.0241 14.7978H30.6486ZM15.0454 15.8462L7.69017 23.2015L15.0454 30.5567V15.8462Z"
+                            fill="grey" />
+                        <path
+                            d="M27.7165 28.5773C27.7165 28.5773 28.6096 27.5725 29.8713 27.5725C31.0986 27.5725 32.1005 28.7031 32.166 30.0721C32.203 30.8453 31.98 31.434 31.6653 31.9671C31.0372 33.0321 27.7123 35.1925 27.7123 35.1925C27.7123 35.1925 24.3998 33.0415 23.7675 31.9671C23.4522 31.4315 23.2298 30.8455 23.2668 30.0721C23.3324 28.7031 24.3343 27.5725 25.5615 27.5725C26.7691 27.5725 27.7165 28.5773 27.7165 28.5773Z"
+                            fill="grey" />
+                        <path
+                            d="M32.6088 35.1925C32.6088 35.1925 32.0997 34.8619 31.3694 34.3558C32.0583 33.7842 32.6651 33.1943 32.9594 32.6954C33.2876 32.1391 33.717 31.2546 33.6572 30.0035C33.5535 27.8362 31.9165 26.1387 29.9304 26.1387C29.0536 26.1387 28.314 26.4378 27.7639 26.7687C27.2465 26.4607 26.567 26.1778 25.7843 26.1425C26.2442 24.47 27.6121 23.2198 29.2294 23.2198C31.1266 23.2198 32.615 24.7985 32.615 24.7985C32.615 24.7985 34.0183 23.2198 36.0006 23.2198C37.9286 23.2198 39.5031 24.9963 39.6061 27.1471C39.6641 28.3622 39.3135 29.2869 38.8195 30.1245C37.8326 31.7981 32.6088 35.1925 32.6088 35.1925Z"
+                            fill="grey" />
+                    </svg>
+                    <p class="text-white text-capitalize pt-5 mt-2">&copy; luvpix photography</p>
+                </div>
+                <div class="">
+                    <p class="text-white">Find us here</p>
+                    <p class="text-white pr-5 mr-5">Luvpix Photography 178 Fifth Avenue 11th Floor New York, NY, USA</p>
+                </div>
+                <div>
+                    <p class="text-white">Want to say hi?</p>
+                    <p class="text-white pr-5 mr-5">Phone: +1 650-444-0000 Email: <span
+                            id="email">hello@luvpix.com</span></p>
+                </div>
+                <div>
+                    <p class="text-white">Follow us on</p>
+                    <a href="" class="d-block text-white">Twitter</a>
+                    <a href="" class="d-block text-white">Facebook</a>
+                    <a href="" class="d-block text-white">Instagram</a>
+                    <a href="" class="d-block text-white">Pinterest</a>
+                </div>
+            </div>
+
+            <div class="footer big-screen-hide small-screen-show">
+                <p class="text-white text-center py-2">2020 LuvPix Photography. All rights reserved</p>
+                <div class="text-center">
+                    <svg width="24" height="24" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.4583 1.58337H11.0833C10.0335 1.58337 9.0267 2.00041 8.28437 2.74274C7.54204 3.48507 7.125 4.49189 7.125 5.54171V7.91671H4.75V11.0834H7.125V17.4167H10.2917V11.0834H12.6667L13.4583 7.91671H10.2917V5.54171C10.2917 5.33174 10.3751 5.13038 10.5235 4.98191C10.672 4.83345 10.8734 4.75004 11.0833 4.75004H13.4583V1.58337Z"
+                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.2083 2.37503C17.4502 2.90978 16.6108 3.31878 15.7225 3.58628C15.2457 3.03806 14.612 2.64949 13.9072 2.47313C13.2024 2.29678 12.4604 2.34114 11.7816 2.60022C11.1028 2.8593 10.52 3.32059 10.1119 3.92172C9.70386 4.52284 9.49025 5.23479 9.49999 5.96128V6.75294C8.10874 6.78902 6.73016 6.48046 5.48704 5.85475C4.24391 5.22905 3.17482 4.30561 2.37499 3.16669C2.37499 3.16669 -0.791677 10.2917 6.33332 13.4584C4.70291 14.5651 2.76066 15.12 0.791656 15.0417C7.91666 19 16.625 15.0417 16.625 5.93753C16.6243 5.71701 16.6031 5.49704 16.5617 5.28044C17.3696 4.48363 17.9398 3.47759 18.2083 2.37503V2.37503Z"
+                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script src="../assets/js/luvpix.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
