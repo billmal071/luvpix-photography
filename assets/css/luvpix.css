@@ -10,6 +10,12 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif !important;
 }
 
+img {
+    object-fit: cover;
+    object-position: top;
+}
+
+
 nav {
     width: 100%;
 }
@@ -27,9 +33,11 @@ ul li a {
 }
 
 a.active,
-a:hover {
+a:hover,
+#btn:hover {
     background: #1b9bff;
     transition: .5s;
+    text-decoration: none !important;
 }
 
 .checkbtn {
@@ -118,7 +126,6 @@ main {
 }
 
 /* services */
-
 #padding-services {
     padding: 85px 141px;
 }
@@ -170,16 +177,16 @@ main {
 
 .grid-box-1 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 10px 15px;
 }
 
-.grid-box-1>div {
-    min-height: 550px;
-}
-
-.card>img {
-    min-height: 550px;
+#card-img {
+    background-image: url('../img/card-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 .head-text {
@@ -202,6 +209,7 @@ main {
     background: var(--orange);
     padding: 15px 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* contact us */
@@ -210,7 +218,8 @@ main {
     padding-bottom: 82px;
 }
 
-input[type="text"] {
+input[type="text"],
+textarea {
     border: 0;
     border-bottom: 1px solid var(--footer);
     outline: none;
@@ -225,6 +234,7 @@ input[type="text"] {
     background-color: var(--orange);
     border-radius: 0;
     font-weight: 500;
+    border: none;
 }
 
 /* footer */
@@ -264,6 +274,10 @@ footer a:hover {
 
 .big-screen-show {
     display: grid;
+}
+
+.big-screen-show-1 {
+    display: block;
 }
 
 
@@ -328,9 +342,9 @@ footer a:hover {
         line-height: 18px;
     }
 
-    .grid-box-1>div {
+    /*.grid-box-1>div {
         min-height: 450px;
-    }
+    }*/
 
     .card {
         display: none !important;
@@ -358,6 +372,7 @@ footer a:hover {
     .header-margin-r {
         margin-right: 50px;
     }
+
     /* about me */
     #padding-bg {
         padding-left: 30px;
@@ -392,9 +407,13 @@ footer a:hover {
 
 }
 
-@media only screen and (max-width: 1190px) and (min-width: 600px) {
+@media only screen and (max-width: 1192px) and (min-width: 600px) {
     input[type='text'] {
         width: 100%;
+    }
+
+    #ml-rm {
+        margin-left: 0 !important;
     }
 }
 
@@ -442,5 +461,18 @@ footer a:hover {
 
     #check:checked~ul {
         left: 0;
+    }
+}
+
+/* increase card height when text overflows */
+@media (max-width: 939px) and (min-width: 768px) {
+    .grid-box-1>div {
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 1406px) and (min-width: 1051px) {
+    .grid-box-1>div {
+        min-height: 100%;
     }
 }
