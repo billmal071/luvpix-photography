@@ -94,7 +94,9 @@ ul li {
     font-size: 64px;
     font-weight: normal;
     font-style: normal;
+    font-family: 'Montserrat' !important;
     line-height: 78px;
+    color: var(--white);
 }
 
 .header-p-text {
